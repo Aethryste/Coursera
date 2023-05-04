@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food, LLC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm navbar-light">
+    <a class="navbar-brand" href="#">Food, LLC</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleNav()">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+<div id="nav-categories">
+    <div class="nav-category">Chicken</div>
+    <div class="nav-category">Beef</div>
+    <div class="nav-category">Sushi</div>
+</div>
+<!--Page content-->
+<div class="wrapper">
+    <h2 class="page-title mb-lg-5 text-center">Our Menu</h2>
+    <div class="container-fluid">
+        <div class="section col-md-12 col-9"><!--        'col-xs-' has been replaced by 'col-' in bootstrap5.-->
+            <div class="title" id="sec1-title">Chicken</div>
+            <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper, augue ut placerat molestie,
+                lectus diam interdum ligula, sodales auctor justo nisi vel tortor. Pellentesque pulvinar dolor eu dui
+                convallis ultrices. In mi nisi, fringilla nec lorem nec, mattis lobortis nibh. Praesent gravida leo a
+                nisl vulputate, eu luctus elit placerat. Donec in ex mattis, accumsan velit eu, maximus metus. Praesent
+                nec consectetur mauris. Aenean sit amet metus augue. Integer placerat purus justo, sed placerat mauris
+                congue quis. Morbi ac porta risus. Nam ut tempus ipsum, sit amet condimentum est. Phasellus gravida
+                lectus sed dolor ultricies, ac iaculis libero convallis. Nunc eleifend posuere massa
+                nec tempor. Praesent suscipit fermentum ultricies. Nunc neque dui, commodo et scelerisque et, malesuada
+                fringilla nisi. Proin a porttitor tortor, at dapibus ante. Sed ut eleifend magna. In venenatis mattis tempor.
+                Duis mattis augue nulla, quis elementum mauris facilisis ut. Morbi quis pretium risus. Nam eleifend mauris
+                vel tincidunt euismod. Fusce pulvinar ante eget ex elementum viverra. Phasellus non tortor tempus velit
+                commodo ultrices. Sed eu suscipit dui. Donec consequat lacus dolor, a pharetra erat rutrum et.
+                Donec pellentesque eu justo in rhoncus. Morbi porta mauris non erat rhoncus, et porttitor diam mollis.
+                Vestibulum sodales consectetur velit, ac pharetra odio condimentum in. Suspendisse sit amet nibh finibus
+                mauris lacinia feugiat. Mauris vitae ornare nisl, a volutpat metus. Quisque eget nulla lectus.
+                Pellentesque tincidunt in ante in tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
+                ultrices posuere cubilia curae; Aenean eleifend mollis ante ac aliquam. Integer fringilla placerat tempus.
+                Donec id rutrum metus. Aliquam pharetra sollicitudin turpis at interdum. Praesent mi nulla, dictum in
+                maximus sed, vehicula sit amet sapien. Phasellus rhoncus mauris vel odio porttitor aliquam. Morbi non
+                leo ultrices, pretium erat non, sodales tortor. Curabitur viverra leo eu felis tincidunt ultrices.
+                Quisque vel laoreet arcu. Nullam mattis magna non ornare pharetra. Morbi mi elit, tincidunt et neque at,
+                imperdiet mattis neque. Donec pretium tortor vel sodales aliquam. Maecenas cursus arcu non lorem
+                eleifend dignissim. Vestibulum gravida velit orci, eu tempor velit eleifend ac. Morbi quis massa sed
+                massa sodales luctus. Morbi eu maximus velit. Maecenas tincidunt aliquet pellentesque. Phasellus aliquet
+                bibendum erat, id scelerisque est finibus sed. Pellentesque at porttitor purus. Quisque id augue finibus,
+                faucibus purus at, elementum nulla. Fusce finibus, arcu non tincidunt porta, mi justo maximus tortor,
+                eget cursus mi diam suscipit ligula. Aliquam bibendum, lacus ut maximus finibus, turpis tortor semper
+                elit, eu congue orci magna bibendum nisl. Nam sagittis id enim id bibendum. In sit amet mauris quis eros
+                lobortis porttitor. Phasellus tempor magna nec lorem tincidunt consequat. Pellentesque tempor, nulla at
+                hendrerit imperdiet, ante diam dignissim justo, sed lacinia urna nibh id mauris. Suspendisse porttitor
+                ante tortor, nec dictum eros mollis in. Sed a dictum ex. Orci varius natoque penatibus et magnis dis
+                parturient montes, nascetur ridiculus mus. Ut congue nec massa id tincidunt. Duis nec tempus tortor.
+                Pellentesque aliquam ipsum sapien, sed ultrices lectus aliquet at. Etiam faucibus, tortor id luctus
+                rhoncus, velit tortor dapibus orci, et mattis lorem est sed urna.
+            </p>
+        </div>
+        <div class="section col-md-12 col-9"><!--        'col-xs-' has been replaced by 'col-' in bootstrap5.-->
+            <div class="title" id="sec2-title">Beef</div>
+            <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper, augue ut placerat molestie,
+                lectus diam interdum ligula, sodales auctor justo nisi vel tortor. Pellentesque pulvinar dolor eu dui
+                convallis ultrices. In mi nisi, fringilla nec lorem nec, mattis lobortis nibh. Praesent gravida leo a
+                nisl vulputate, eu luctus elit placerat. Donec in ex mattis, accumsan velit eu, maximus metus. Praesent
+                nec consectetur mauris. Aenean sit amet metus augue. Integer placerat purus justo, sed placerat mauris
+                congue quis. Morbi ac porta risus. Nam ut tempus ipsum, sit amet condimentum est. Phasellus gravida
+                lectus sed dolor ultricies, ac iaculis libero convallis. Nunc eleifend posuere massa
+                nec tempor. Praesent suscipit fermentum ultricies. Nunc neque dui, commodo et scelerisque et, malesuada
+                fringilla nisi. Proin a porttitor tortor, at dapibus ante. Sed ut eleifend magna. In venenatis mattis tempor.
+                Duis mattis augue nulla, quis elementum mauris facilisis ut. Morbi quis pretium risus. Nam eleifend mauris
+                vel tincidunt euismod. Fusce pulvinar ante eget ex elementum viverra. Phasellus non tortor tempus velit
+                commodo ultrices. Sed eu suscipit dui. Donec consequat lacus dolor, a pharetra erat rutrum et.
+                Donec pellentesque eu justo in rhoncus. Morbi porta mauris non erat rhoncus, et porttitor diam mollis.
+                Vestibulum sodales consectetur velit, ac pharetra odio condimentum in. Suspendisse sit amet nibh finibus
+                mauris lacinia feugiat. Mauris vitae ornare nisl, a volutpat metus. Quisque eget nulla lectus.
+                Pellentesque tincidunt in ante in tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
+                ultrices posuere cubilia curae; Aenean eleifend mollis ante ac aliquam. Integer fringilla placerat tempus.
+                Donec id rutrum metus. Aliquam pharetra sollicitudin turpis at interdum. Praesent mi nulla, dictum in
+                maximus sed, vehicula sit amet sapien. Phasellus rhoncus mauris vel odio porttitor aliquam. Morbi non
+                leo ultrices, pretium erat non, sodales tortor. Curabitur viverra leo eu felis tincidunt ultrices.
+                Quisque vel laoreet arcu. Nullam mattis magna non ornare pharetra. Morbi mi elit, tincidunt et neque at,
+                imperdiet mattis neque. Donec pretium tortor vel sodales aliquam. Maecenas cursus arcu non lorem
+                eleifend dignissim. Vestibulum gravida velit orci, eu tempor velit eleifend ac. Morbi quis massa sed
+                massa sodales luctus. Morbi eu maximus velit. Maecenas tincidunt aliquet pellentesque. Phasellus aliquet
+                bibendum erat, id scelerisque est finibus sed. Pellentesque at porttitor purus. Quisque id augue finibus,
+                faucibus purus at, elementum nulla. Fusce finibus, arcu non tincidunt porta, mi justo maximus tortor,
+                eget cursus mi diam suscipit ligula. Aliquam bibendum, lacus ut maximus finibus, turpis tortor semper
+                elit, eu congue orci magna bibendum nisl. Nam sagittis id enim id bibendum. In sit amet mauris quis eros
+                lobortis porttitor. Phasellus tempor magna nec lorem tincidunt consequat. Pellentesque tempor, nulla at
+                hendrerit imperdiet, ante diam dignissim justo, sed lacinia urna nibh id mauris. Suspendisse porttitor
+                ante tortor, nec dictum eros mollis in. Sed a dictum ex. Orci varius natoque penatibus et magnis dis
+                parturient montes, nascetur ridiculus mus. Ut congue nec massa id tincidunt. Duis nec tempus tortor.
+                Pellentesque aliquam ipsum sapien, sed ultrices lectus aliquet at. Etiam faucibus, tortor id luctus
+                rhoncus, velit tortor dapibus orci, et mattis lorem est sed urna.
+            </p>
+        </div>
+        <div class="section col-md-12 col-9"><!--        'col-xs-' has been replaced by 'col-' in bootstrap5.-->
+            <div class="title" id="sec3-title">Sushi</div>
+            <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper, augue ut placerat molestie,
+                lectus diam interdum ligula, sodales auctor justo nisi vel tortor. Pellentesque pulvinar dolor eu dui
+                convallis ultrices. In mi nisi, fringilla nec lorem nec, mattis lobortis nibh. Praesent gravida leo a
+                nisl vulputate, eu luctus elit placerat. Donec in ex mattis, accumsan velit eu, maximus metus. Praesent
+                nec consectetur mauris. Aenean sit amet metus augue. Integer placerat purus justo, sed placerat mauris
+                congue quis. Morbi ac porta risus. Nam ut tempus ipsum, sit amet condimentum est. Phasellus gravida
+                lectus sed dolor ultricies, ac iaculis libero convallis. Nunc eleifend posuere massa
+                nec tempor. Praesent suscipit fermentum ultricies. Nunc neque dui, commodo et scelerisque et, malesuada
+                fringilla nisi. Proin a porttitor tortor, at dapibus ante. Sed ut eleifend magna. In venenatis mattis tempor.
+                Duis mattis augue nulla, quis elementum mauris facilisis ut. Morbi quis pretium risus. Nam eleifend mauris
+                vel tincidunt euismod. Fusce pulvinar ante eget ex elementum viverra. Phasellus non tortor tempus velit
+                commodo ultrices. Sed eu suscipit dui. Donec consequat lacus dolor, a pharetra erat rutrum et.
+                Donec pellentesque eu justo in rhoncus. Morbi porta mauris non erat rhoncus, et porttitor diam mollis.
+                Vestibulum sodales consectetur velit, ac pharetra odio condimentum in. Suspendisse sit amet nibh finibus
+                mauris lacinia feugiat. Mauris vitae ornare nisl, a volutpat metus. Quisque eget nulla lectus.
+                Pellentesque tincidunt in ante in tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
+                ultrices posuere cubilia curae; Aenean eleifend mollis ante ac aliquam. Integer fringilla placerat tempus.
+                Donec id rutrum metus. Aliquam pharetra sollicitudin turpis at interdum. Praesent mi nulla, dictum in
+                maximus sed, vehicula sit amet sapien. Phasellus rhoncus mauris vel odio porttitor aliquam. Morbi non
+                leo ultrices, pretium erat non, sodales tortor. Curabitur viverra leo eu felis tincidunt ultrices.
+                Quisque vel laoreet arcu. Nullam mattis magna non ornare pharetra. Morbi mi elit, tincidunt et neque at,
+                imperdiet mattis neque. Donec pretium tortor vel sodales aliquam. Maecenas cursus arcu non lorem
+                eleifend dignissim. Vestibulum gravida velit orci, eu tempor velit eleifend ac. Morbi quis massa sed
+                massa sodales luctus. Morbi eu maximus velit. Maecenas tincidunt aliquet pellentesque. Phasellus aliquet
+                bibendum erat, id scelerisque est finibus sed. Pellentesque at porttitor purus. Quisque id augue finibus,
+                faucibus purus at, elementum nulla. Fusce finibus, arcu non tincidunt porta, mi justo maximus tortor,
+                eget cursus mi diam suscipit ligula. Aliquam bibendum, lacus ut maximus finibus, turpis tortor semper
+                elit, eu congue orci magna bibendum nisl. Nam sagittis id enim id bibendum. In sit amet mauris quis eros
+                lobortis porttitor. Phasellus tempor magna nec lorem tincidunt consequat. Pellentesque tempor, nulla at
+                hendrerit imperdiet, ante diam dignissim justo, sed lacinia urna nibh id mauris. Suspendisse porttitor
+                ante tortor, nec dictum eros mollis in. Sed a dictum ex. Orci varius natoque penatibus et magnis dis
+                parturient montes, nascetur ridiculus mus. Ut congue nec massa id tincidunt. Duis nec tempus tortor.
+                Pellentesque aliquam ipsum sapien, sed ultrices lectus aliquet at. Etiam faucibus, tortor id luctus
+                rhoncus, velit tortor dapibus orci, et mattis lorem est sed urna.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>

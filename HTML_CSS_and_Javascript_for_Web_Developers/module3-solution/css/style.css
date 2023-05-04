@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+html, body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 1000;
+}
+/*Navbar-related:*/
+.navbar {
+    background-color: rgb(135,135,140);
+    border-bottom: 3px solid black;
+    box-shadow: rgba(100, 100, 111, 0.1) 0 7px 29px 0;
+    z-index: 20;
+}
+.navbar a {
+    font-size: 1.8em;
+    margin: 0.1em 0.2em 0.2em 1em;
+}
+.navbar-toggler {
+    color: rgb(0,0,0,1);
+    border: 3px solid rgb(0,0,0,1)!important;
+}
+.navbar-toggler:active, .navbar-toggler:focus {
+    outline: none;
+}
+.navActivated-icon {
+    filter: invert(1);
+    outline: none;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../resources/icon_menu_black.png");
+}
+#nav-categories {
+    width: 100vw;
+    margin-top: -110px;
+    transition: 300ms;
+    z-index: 10;
+}
+.navActivated-drop {
+    transform:translateY(110px);
+    transition: 300ms;
+}
+.nav-category {
+    background-color: lightgray;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.nav-category:hover {
+    background-color: rgb(200,200,200);
+}
+/*Page-content related:*/
+.wrapper {
+    transition: 300ms;
+}
+.page-title {
+    font-weight: 800;
+    margin: 0.6em;
+}
+.section {
+    box-sizing: border-box;
+    background-color: rgb(150,150,150);
+    margin: auto;
+}
+.section .title {
+    text-align: center;
+    max-width: 120px;
+    min-width: fit-content;
+    padding: 2px;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: auto auto 0.5em auto;
+}
+.section > .content {
+    text-align: left;
+    padding: 0 10px 15px 10px;
+    font-weight: 300;
+    font-size: 1.05em;
+}
