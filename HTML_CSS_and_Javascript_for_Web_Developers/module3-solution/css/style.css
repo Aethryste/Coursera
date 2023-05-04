@@ -43,7 +43,6 @@ html, body {
 .nav-category {
     background-color: lightgray;
     padding: 5px;
-    text-align: center;
     border-bottom: 2px solid black;
     cursor: pointer;
 }
